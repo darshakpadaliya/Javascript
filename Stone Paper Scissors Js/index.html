@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="game-container">
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="rock.png" alt="Rock">
+                <p>Rock</p>
+            </div>
+            <div class="choice" id="paper">
+                <img src="paper.png" alt="Paper">
+                <p>Paper</p>
+            </div>
+            <div class="choice" id="scissors">
+                <img src="scissors.png" alt="Scissors">
+                <p>Scissors</p>
+            </div>
+        </div>
+
+        <div class="score-board">
+            <div class="score">
+                <p class="user-score">0</p>
+                <p>You</p>
+            </div>
+            <div class="score">
+                <p class="computer-score">0</p>
+                <p>Computer</p>
+            </div>
+        </div>
+
+        <div class="msg-container">
+            <p class="msg">Play your move!</p>
+        </div>
+
+        <button class="reset-btn" id="reset-btn">Reset</button>
+
+        <div class="game-stats">
+            <p>Games played: <span class="games-played">0</span></p>
+            <p>Winning streak: <span class="winning-streak">0</span></p>
+        </div>
+
+        <div class="help-container">
+            <p>How to play:</p>
+            <ul>
+                <li>Choose a move by clicking on one of the icons above.</li>
+                <li>The computer will generate a random move.</li>
+                <li>The winner will be determined based on the game rules.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
